@@ -575,6 +575,11 @@ a {
     padding-bottom: 120px;
   }
 
+  .team .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .team-item {
     width: calc((100% - 72px) / 4);
   }
@@ -882,6 +887,7 @@ a {
     row-gap: 72px;
     column-gap: 24px;
     padding-left: 108px;
+    padding-right: 108px;
     text-align: left;
   }
 
@@ -1321,7 +1327,7 @@ a {
 }
 .mob-contacts {
   margin-top: auto;
-  margin-bottom: 48px;
+
   font-style: normal;
 }
 
