@@ -761,16 +761,17 @@ a {
 .footer-social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
+
   margin-top: 16px;
   align-items: flex-start;
-  justify-content: flex-start;
+
   flex-direction: row;
   gap: 16px;
 }
 
 .footer-social-box {
   justify-content: center;
+  margin-bottom: 72px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -897,6 +898,7 @@ a {
   }
 
   .footer-social-list {
+    justify-content: flex-start;
     margin-bottom: 0;
   }
 
