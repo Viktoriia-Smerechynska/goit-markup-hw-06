@@ -584,11 +584,6 @@ a {
     width: calc((100% - 72px) / 4);
   }
 
-  .team-box-icons {
-    gap: 12px;
-    padding: 0;
-  }
-
   .team-title-item {
     gap: 24px;
   }
