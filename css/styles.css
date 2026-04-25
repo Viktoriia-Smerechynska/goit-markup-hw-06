@@ -544,6 +544,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 64px;
     justify-content: center;
   }
 
@@ -618,6 +619,7 @@ a {
 }
 
 .portfolio-item {
+  width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   box-shadow:
@@ -640,7 +642,7 @@ a {
 .portfolio-title-item {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  column-gap: 0px;
   row-gap: 48px;
   padding: 0;
   list-style: none;
@@ -683,6 +685,7 @@ a {
   }
 
   .portfolio-title-item {
+    column-gap: 24px;
     row-gap: 72px;
   }
 }
@@ -691,6 +694,10 @@ a {
   .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .portfolio-title-item {
+    row-gap: 48px;
   }
 
   .portfolio-item {
