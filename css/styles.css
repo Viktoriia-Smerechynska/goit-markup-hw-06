@@ -961,6 +961,10 @@ a {
     margin-left: auto;
   }
 
+  .footer-social-list {
+    margin-bottom: 0;
+  }
+
   .footer-form-input {
     width: 264px;
   }
